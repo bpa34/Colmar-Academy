@@ -5,6 +5,10 @@
     font-size: 16px;
 }
 
+main {
+    padding-top: 4rem;
+    position: relative;
+}
 
 header {
     height: 4rem;
@@ -13,9 +17,32 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: white;
+    z-index: 1000;
 }
 
+.banner {
+    background-color: #d8d8d8;
+    width: 100%;
+    display: flex;
+}
 
+button {
+    color: white;
+    background-color: #9B9B9B;
+    border: none;
+    height: 4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    flex-shrink: 1;
+    border-radius: 2px;
+
+}
+
+button:hover
+{
+    background-color: grey;
+}
 
 @media only screen and (min-width: 801px) {
     
@@ -48,6 +75,36 @@ header {
     margin: 0 2rem;
     }
 
+    .banner {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
 
+    .pic {
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding-bottom: 1.5rem;
+    }
+
+    h1, h2 {
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+    
+    button {
+        width: 100%;
+    }
+
+   
 
 }
+
