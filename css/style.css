@@ -36,7 +36,7 @@ button {
     font-weight: 500;
     flex-shrink: 1;
     border-radius: 2px;
-
+    
 }
 
 button:hover
@@ -75,6 +75,8 @@ button:hover
     margin: 0 2rem;
     }
 
+   /* Mobile Banner */ 
+
     .banner {
         flex-direction: column;
         padding-bottom: 2rem;
@@ -96,28 +98,113 @@ button:hover
         height: auto;
     }
 
-    h1 {
-        font-size: 2.5rem;
+    .right_description {
+        padding: 0px 1rem;
     }
 
-    h2 {
-        font-size: 1.4rem;
+
+    .banner h1 {
+        font-size: 3rem;
+    }
+
+    .banner h2 {
+        font-size: 1.6rem;
         font-weight: 500;
         padding-bottom: 1.5rem;
     }
 
-    h1, h2 {
-        padding-left: 1rem;
+   h1.banner {
+       padding-top: 2rem;
+   }
+   
+   /* .banner h1, h2 {
         padding-top: 2rem;
     }
-    
+    */ 
     button {
         width: 100%;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
 
+   /* Second Banner mobile */
+
+   #left-container {
+       display: none;
+   }
+
+    .thumbnail #desktop {
+       display: none;
+   }
    
+   .second-banner {
+       padding: 0px 1rem;
+       padding-top: 1rem;
+       padding-bottom: 2rem;
+       
+   }
+
+   #right-container {
+    border: solid 1px #E8E9E8;
+   }
+
+   .container{
+       position: relative;
+       border-top: solid 1px #E8E9E8;
+       border-bottom: solid 1px #E8E9E8;
+       
+   }
+
+   .thumbnail {
+       position: relative;
+       width: 100%
+       
+   }
+
+   .thumbnail img {
+       display: block;
+       max-width: 100%;
+       height: auto;
+   }
+
+    .description {
+       padding: 2.5rem 1rem;
+       display: flex;
+       flex-direction: column;
+       max-height: 250px;
+       box-sizing: border-box;
+   }
+
+   .description h2 {
+       font-size: 2rem;
+       letter-spacing: .5px;
+       font-weight: 600;
+   }
+
+   .description p {
+       padding: .7rem 0px;
+       font-size: 1.2rem;
+       line-height: 1.5;
+       letter-spacing: .5px;
+   }
+
+   .description a {
+       text-decoration: none;
+       font-size: 1.2rem;
+       color: #588CDC;
+       letter-spacing: .5px;
+   }
+
+  
+   
+
+
+        
+    
+
+
+
+
+
+
 
 }
 
