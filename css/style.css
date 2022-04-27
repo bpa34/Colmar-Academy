@@ -78,11 +78,22 @@ button:hover
     .banner {
         flex-direction: column;
         padding-bottom: 2rem;
+        width: 100%;
+        overflow: hidden;
+        
     }
 
-    .pic {
+    .left_pic {
         flex-grow: 1;
         flex-shrink: 1;
+        width: 100%;
+        position: relative;
+    }
+
+    .left_pic img {
+        display: block;
+        max-width: 100%;
+        height: auto;
     }
 
     h1 {
@@ -102,6 +113,8 @@ button:hover
     
     button {
         width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
    
