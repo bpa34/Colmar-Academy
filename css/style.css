@@ -44,7 +44,22 @@ button:hover
     background-color: grey;
 }
 
-@media only screen and (min-width: 801px) {
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+p {
+    letter-spacing: .5px;
+}
+
+
+@media only screen and (min-width: 630px) {
     
     .mobile{
         display: none;
@@ -61,7 +76,7 @@ button:hover
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 630px) {
     .desktop {
         display: none;
     }
@@ -86,6 +101,7 @@ button:hover
     }
 
     .left_pic {
+        
         flex-grow: 1;
         flex-shrink: 1;
         width: 100%;
@@ -100,16 +116,12 @@ button:hover
 
     .right_description {
         padding: 0px 1rem;
+        padding-top: 1rem;
     }
 
 
-    .banner h1 {
-        font-size: 3rem;
-    }
 
     .banner h2 {
-        font-size: 1.6rem;
-        font-weight: 500;
         padding-bottom: 1.5rem;
     }
 
@@ -117,10 +129,6 @@ button:hover
        padding-top: 2rem;
    }
    
-   /* .banner h1, h2 {
-        padding-top: 2rem;
-    }
-    */ 
     button {
         width: 100%;
     }
@@ -155,14 +163,14 @@ button:hover
 
    .thumbnail {
        position: relative;
-       width: 100%
-       
+       width: 100%;
    }
 
    .thumbnail img {
        display: block;
        max-width: 100%;
        height: auto;
+       flex-grow: 2;
    }
 
     .description {
@@ -173,31 +181,52 @@ button:hover
        box-sizing: border-box;
    }
 
-   .description h2 {
-       font-size: 2rem;
-       letter-spacing: .5px;
-       font-weight: 600;
-   }
 
    .description p {
        padding: .7rem 0px;
-       font-size: 1.2rem;
        line-height: 1.5;
-       letter-spacing: .5px;
    }
 
    .description a {
        text-decoration: none;
-       font-size: 1.2rem;
        color: #588CDC;
        letter-spacing: .5px;
    }
 
+  /* Courses */ 
+
+  .study-pic {
+      display: none;
+  }
+
+  .description p {
+      display: none;
+  }
+
+  .areas-of-study {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 1rem;
+  }
+
   
-   
+
+  .areas-of-study h1 {
+      text-align: center;
+  }
+
+  .areas-of-study .container {
+      background-color: #d8d8d8;
+      display: flex;
+      margin-bottom: .5rem; 
+  }
+
+  .areas-of-study .container:hover{
+      background-color: #9B9B9B;
+  }
 
 
-        
     
 
 
