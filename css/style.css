@@ -58,19 +58,12 @@ p {
     letter-spacing: .5px;
 }
 
-
-@media only screen and (max-width: 630px) {
-    
-    .mobile{
+@media only screen and (max-width: 631px) {
+    .moble {
         display: none;
     }
-
-
-
-
-
-
 }
+
 
 
 
@@ -260,11 +253,5 @@ footer h6 {
     font-weight: 100;
     padding-left: 1rem;
 }
-
-
-
-
-
-
 }
 
