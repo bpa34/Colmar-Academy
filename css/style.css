@@ -5,18 +5,19 @@
     font-size: 16px;
 }
 
+
+
 main {
-    padding-top: 4rem;
+    top: 4rem;
     position: relative;
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
 }
 
 header {
     height: 4rem;
-    width: 100%;
     position: fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     background-color: white;
     z-index: 1000;
 }
@@ -27,22 +28,6 @@ header {
     display: flex;
 }
 
-button {
-    color: white;
-    background-color: #9B9B9B;
-    border: none;
-    height: 4rem;
-    font-size: 1.2rem;
-    font-weight: 500;
-    flex-shrink: 1;
-    border-radius: 2px;
-    
-}
-
-button:hover
-{
-    background-color: grey;
-}
 
 h1 {
     font-size: 2.5rem;
@@ -58,11 +43,134 @@ p {
     letter-spacing: .5px;
 }
 
-@media only screen and (max-width: 631px) {
-    .moble {
+@media only screen and (min-width: 631px) {
+    .mobile {
         display: none;
     }
+    
+    /* header */
+
+    header {
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+
+    #logo {
+        display: flex;
+        align-items: center;
+        line-height: 1.125rem;
+        text-transform: uppercase;
+        padding-left: 1rem;
+    }
+
+    #logo img {
+        height: 2.625rem;
+    }
+
+    .bold {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .light {
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    #logo a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+    nav {
+        padding-right: 1rem;
+    }
+
+    nav li {
+        display: inline-block;
+        padding-left: 1rem;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* Banner */ 
+
+    .banner {
+        background-color: #d8d8dd;
+        width: 100%;
+        padding: 2rem 1.5rem;
+    }
+
+    .left_pic {
+        width: 60%;
+        padding-right: 1.5rem;
+        display: flex;
+        
+
+    }
+
+    .left_pic img {
+        width: 100%;
+        display: block;
+        min-height: 336px;
+        min-width: 441px;
+        
+    }
+
+    .right_description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+        text-align: left;
+        padding-right: 5rem;
+        min-height: 336px;
+        min-width: 364px;
+        
+    }
+
+    .right_description h1 {
+        padding-bottom: 2rem;
+    }
+
+    .right_description h2 {
+        padding-bottom: 2rem;
+    }
+
+    button {
+            color: white;
+            background-color: #9B9B9B;
+            border: none;
+            height: 3rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            flex-shrink: 1;
+            border-radius: 2px;
+            width: 100%;
+            
+    }
+
+    button:hover{
+    background-color: grey;
+    }
+
+
+
+
 }
+
+
+
+
+
 
 
 
@@ -143,10 +251,6 @@ p {
        border-bottom: solid 1px #E8E9E8;
    }
 
-   #right-container {
-    
-   }
-
    .container{
        position: relative;
        border-top: solid 1px #E8E9E8;
@@ -222,36 +326,49 @@ p {
       background-color: #9B9B9B;
   }
 
-/* Thesis Exhibit */
+    /* Thesis Exhibit */
 
-.thesis-container h1 {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    text-align: center;
-}
+    .thesis-container h1 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
 
-.thesis-container video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    padding-bottom: 1.5rem;
-}
-    
-/* Footer */
-footer {
-    height: auto;
-    align-items: center;
-}
+    .thesis-container video {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        padding-bottom: 1.5rem;
+    }
+        
+    /* Footer */
+    footer {
+        height: auto;
+        align-items: center;
+    }
 
-#copyright {
-    align-items: center;
-}
+    #copyright {
+        align-items: center;
+    }
 
-footer h6 {
-    padding: 1rem 0px;
-    position: relative;
-    font-weight: 100;
-    padding-left: 1rem;
-}
-}
+    footer h6 {
+        padding: 1rem 0px;
+        position: relative;
+        font-weight: 100;
+        padding-left: 1rem;
+    }
 
+    button {
+        color: white;
+        background-color: #9B9B9B;
+        border: none;
+        height: 4rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        flex-shrink: 1;
+        border-radius: 2px;
+
+
+
+
+}
