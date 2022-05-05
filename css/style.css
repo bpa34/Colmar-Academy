@@ -29,16 +29,6 @@ header {
 }
 
 
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    letter-spacing: .5px;
-}
-
 p {
     letter-spacing: .5px;
 }
@@ -46,6 +36,18 @@ p {
 @media only screen and (min-width: 631px) {
     .mobile {
         display: none;
+    }
+    
+
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: .5px;
     }
     
     /* header */
@@ -162,8 +164,44 @@ p {
     background-color: grey;
     }
 
+    /* second banner */ 
+    .second-banner {
+        display: flex;
+    }
+
+    #left-container {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding: 2rem 1.5rem;
+    }
 
 
+
+    #left-container img {
+        width: 100%;
+        display: block;
+    }
+    
+    #left-container h2 {
+        font-size: 2rem;
+    }
+
+    #left-container p {
+        padding-top: 1.5rem;
+        line-height: 1.6;
+    }
+
+    #left-container #description {
+        padding: 2rem 0px;
+    }
+
+
+
+
+
+
+    
 
 }
 
@@ -181,6 +219,26 @@ p {
     .desktop {
         display: none;
     }
+    header {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .second-banner .desktop {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: .5px;
+    }
+    
 
     nav {
     display: flex;
@@ -367,6 +425,7 @@ p {
         font-weight: 500;
         flex-shrink: 1;
         border-radius: 2px;
+    }
 
 
 
