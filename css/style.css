@@ -106,9 +106,11 @@ p {
     /* Banner */ 
 
     .banner {
+        display: flex;
         background-color: #d8d8dd;
         width: 100%;
         padding: 2rem 1.5rem;
+        
     }
 
     .left_pic {
@@ -167,6 +169,7 @@ p {
     /* second banner */ 
     .second-banner {
         display: flex;
+        width: 100%;
     }
 
     #left-container {
@@ -174,6 +177,7 @@ p {
         flex-direction: column;
         width: 60%;
         padding: 2rem 1.5rem;
+        border-right: solid 1px #E8E9E8;
     }
 
 
@@ -196,12 +200,60 @@ p {
         padding: 2rem 0px;
     }
 
+    #right-container {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 2rem 0px;
+    }
 
+    #right-container .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: solid 1px #E8E9E8;
+    }
 
+    #right-container .container:hover{
+        background-color: #D8D8D8;
+    }
 
+    #right-container .thumbnail {
+        width: 35%;
+        height: auto;
+        padding: 1rem;
+    }
 
+    #right-container img {
+        width: 100%;
+ 
+    }
+
+    #right-container .description {
+        justify-content: center;
+        align-items: center;
+        width: 65%;
+    }
+    
+    .description p {
+        padding: .8rem 0px;
+    }
+
+    .description a {
+        text-decoration: none;
+        color: #588CDC;
+    }
 
     
+
+
+
+
+
+
+
+
+
 
 }
 
