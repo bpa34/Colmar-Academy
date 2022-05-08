@@ -244,6 +244,40 @@ p {
         color: #588CDC;
     }
 
+/* Areas of Study */ 
+
+    .areas-of-study {
+        background-color: #eaebec;
+        padding: 2rem 4.5rem;
+        display: block;
+    }
+
+    .study-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .areas-of-study .container {
+        width: 28%;
+        margin: 1rem;
+        
+    }
+
+    .areas-of-study .container img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+   .study-container .description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+
     
 
 
