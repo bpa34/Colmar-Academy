@@ -110,8 +110,8 @@
                 </div>
                 <div class="description">
                 <h2>Software Engineering</h2>
-                <span>COURSES</span>
-                <span>Web Development, Mobile Development, iOT, APIs</span>
+                <span class="course">COURSES</span>
+                <span class="classes">Web Development, Mobile Development, iOT, APIs</span>
                 </div>
             </div>
             <div class="container" id="computer-art">
@@ -120,8 +120,8 @@
                 </div>
                 <div class="description">
                 <h2>Computer art</h2>
-                <span>COURSES</span>
-                <span>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</span>
+                <span class="course">COURSES</span>
+                <span class="classes">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</span>
                 </div>
             </div>
             <div class="container" id="design">
@@ -130,8 +130,8 @@
                 </div>
                 <div class="description">
                 <h2>Design</h2>
-                <span>COURSES</span>
-                <span>User Experience Design, User Research, Visual Design</span>
+                <span class="course">COURSES</span>
+                <span class="classes">User Experience Design, User Research, Visual Design</span>
                 </div>
             </div>
             <div class="container" id="Data">
@@ -140,8 +140,8 @@
                 </div>
                 <div class="description">
                 <h2>Data</h2>
-                <span>COURSES</span>
-                <span>Data Science, Big Data, SQL, Data Visualation</span>
+                <span class="course">COURSES</span>
+                <span class="classes">Data Science, Big Data, SQL, Data Visualation</span>
                 </div>
             </div>
             <div class="container" id="Business">
@@ -150,8 +150,8 @@
                 </div>
                 <div class="description">
                 <h2>Buisness</h2>
-                <span>COURSES</span>
-                <span>Product Development, Business Development, Startup</span>
+                <span class="course">COURSES</span>
+                <span class="classes">Product Development, Business Development, Startup</span>
                 </div>
             </div>
             <div class="container" id="marketing">
@@ -160,8 +160,8 @@
                 </div>
                 <div class="description">
                 <h2>Marketing</h2>
-                <span>COURSES</span>
-                <span>Analytics, Content Marketing, Mobile Marketing</span>
+                <span class="course">COURSES</span>
+                <span class="classes">Analytics, Content Marketing, Mobile Marketing</span>
                 </div>
             </div>
         </div>
@@ -170,17 +170,48 @@
 <!--Thesis Exhibits-->
 
 <section>
+    <h1 id="thesis-title">Thesis Exhibit</h1>
     <div class="thesis-container">
-        <h1>Thesis Exhibits</h1>
-        <div id="video">
-            <video src="videos/thesis.mp4" loop autoplay muted controls>
+        <div id="left-side">
+            <div id="video">
+                <video src="videos/thesis.mp4" loop autoplay muted controls>
+            </div>
+            <div id="video-description">
+                <h2>Reimagine Urban</h2>
+                <p>"Curabitur vita libero in ipsum porttitor consequat. Aliquam et commodo lecus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+            </div>
+        </div>
+        <div id="right-side">
+            <div id="exhibits" class="exhibit-container"> 
+                <div class="thumbnail">
+                    <img class="desktop" src="images/thesis-fisma.jpg" alt="design">
+                </div>
+                <div class="description">
+                    <h2>Fisma: Design and Prototype</h2>
+                    <p>Designer showcase of new prototype product</p>
+                </div>
+            </div>  
+            <div id="exhibits" class="exhibit-container">
+                <div class="thumbnail">
+                    <img class="desktop" src="images/thesis-now-and-then.jpg" alt="Now and then">
+                </div>
+                <div class="description">
+                    <h2>Now and then</h2>
+                    <p>Research Study about New York</p>
+                    
+                </div>
         </div>
     </div>
 </section>
 
-<footer>
+<footer class="footer-container">
     <div id="copyright">
-    <h6>&copy 2022 Brett Atkinson. All rights reserved</h6>
+    <p id="text">&copy 2022 Brett Atkinson. All rights reserved</p>
+    </div>
+    <ul>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+    </ul>
     </div>
 </footer>
 </main>
