@@ -33,7 +33,7 @@ p {
     letter-spacing: .5px;
 }
 
-@media only screen and (min-width: 631px) {
+@media only screen and (min-width: 900px) {
     .mobile {
         display: none;
     }
@@ -418,7 +418,7 @@ p {
 
 
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 891px) {
     .desktop {
         display: none;
     }
